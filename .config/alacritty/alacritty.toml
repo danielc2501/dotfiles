@@ -29,3 +29,6 @@ style = "normal"
 
 [font]
 size = 22
+
+[window]
+opacity = 0.9

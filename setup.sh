@@ -66,7 +66,7 @@ fi
 
 echo "Setup complete! Please log out and select Hyprland in your display manager or start it manually."
 
-echo "removing dotfiles directly including this script"
+echo "PS: Removed dotfiles directly including this script"
 rm -rf /home/dotfiles
 
 exit 0

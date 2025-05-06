@@ -1,4 +1,5 @@
 anki
+ark
 bottles
 freetube
 morgen-bin

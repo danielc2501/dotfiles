@@ -6,5 +6,6 @@ skypeforlinux-bin
 ttf-victor-mono
 wallust
 wlogout
+qbittorrent
 yay
 yay-debug

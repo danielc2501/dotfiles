@@ -26,3 +26,6 @@ style = "Italic"
 [font.normal]
 family = "MesloLGS Nerd Font Mono"
 style = "normal"
+
+[font]
+size = 18.0

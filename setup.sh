@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Exit on Error
-
-set -e
-
 # Update system
 echo "Updating system packages..."
 sudo pacman -Syu --noconfirm || log_error "Failed to update system."
@@ -51,7 +47,7 @@ if [[ -f "aur_packages.txt" ]]; then
     echo "Installing official packages..."
     yay -S --needed --noconfirm - < "aur_packages.txt" || log_error "Failed to install AUR packages."
 else
-    log_warn "packages.txt not found. Skipping official package installation."
+    log_warn "aur_packages.txt not found. Skipping official package installation."
 fi
 
 # Ensure Hyprland is installed

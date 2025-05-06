@@ -86,7 +86,7 @@ alias rebootforce='sudo shutdown -r -n now'
 # aliases to show disk space and space used in a folder
 alias diskspace="du -S | sort -n -r |more"
 
-
+`test -z "$TMUX" && (tmux attach || tmux new-session)`
 
 
 

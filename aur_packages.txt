@@ -2,6 +2,7 @@ anki
 ark
 bottles
 freetube
+fzf
 morgen-bin
 skypeforlinux-bin
 ttf-victor-mono

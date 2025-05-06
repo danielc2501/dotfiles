@@ -32,3 +32,9 @@ size = 22
 
 [window]
 opacity = 0.9
+
+[keyboard]
+bindings = [
+    { key = "F", mods = "Control", chars = "fzf\n" },
+    { key = "T", mods = "Control", chars = "tmux\n" }
+]

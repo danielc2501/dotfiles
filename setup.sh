@@ -50,6 +50,14 @@ else
     log_warn "aur_packages.txt not found. Skipping official package installation."
 fi
 
+# Check for NVIDIA GPU and install drivers if necessary
+if lspci | grep -i nvidia > /dev/null; then
+    echo "NVIDIA GPU detected. Installing NVIDIA drivers..."
+    sudo pacman -S --needed --noconfirm nvidia nvidia-utils nvidia-settings || log_error "Failed to install NVIDIA drivers."
+else
+    echo "No NVIDIA GPU detected. Skipping NVIDIA driver installation."
+fi
+
 # Ensure Hyprland is installed
 if ! command_exists Hyprland; then
     echo "Hyprland not found. Ensuring it is installed..."

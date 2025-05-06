@@ -1,10 +1,10 @@
-anki 25.02.4-1
-bottles 2:51.21-3
-freetube 0.23.5-1
-morgen-bin 3.6.12-1
-skypeforlinux-bin 8.138.0.213-1
-ttf-victor-mono 1.5.6-1
-wallust 3.3.0-2
-wlogout 1.2.2-0
-yay 12.5.0-1
-yay-debug 12.5.0-1
+anki
+bottles
+freetube
+morgen-bin
+skypeforlinux-bin
+ttf-victor-mono
+wallust
+wlogout
+yay
+yay-debug

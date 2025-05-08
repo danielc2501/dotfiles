@@ -402,7 +402,14 @@ require('lazy').setup({
         --     i = { ['<c-enter>'] = 'to_fuzzy_refine' },
         --   },
         -- },
-        -- pickers = {}
+        pickers = {
+
+          find_files = {
+
+            hidden = true,
+          },
+        },
+
         extensions = {
           ['ui-select'] = {
             require('telescope.themes').get_dropdown(),
@@ -1031,10 +1038,10 @@ vim.keymap.set('n', '<C-;>', function()
 end)
 
 -- Toggle previous & next buffers stored within Harpoon list
-vim.keymap.set('n', '<C-S-P>', function()
+vim.keymap.set('n', '<C-p>', function()
   harpoon:list():prev()
 end)
-vim.keymap.set('n', '<C-S-N>', function()
+vim.keymap.set('n', '<C-n>', function()
   harpoon:list():next()
 end)
 

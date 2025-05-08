@@ -3,6 +3,7 @@ ark
 bottles
 freetube
 fzf
+hyprshot
 morgen-bin
 skypeforlinux-bin
 ttf-victor-mono
@@ -10,5 +11,3 @@ tmux
 wallust
 wlogout
 qbittorrent
-yay
-yay-debug

@@ -38,6 +38,7 @@ inxi
 iwd
 jq
 kvantum
+less
 libpulse
 libreoffice-still
 loupe

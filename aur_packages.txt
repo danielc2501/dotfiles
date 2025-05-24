@@ -4,6 +4,7 @@ bottles
 freetube
 fzf
 hyprshot
+kdegraphics-thumbnailers
 morgen-bin
 skypeforlinux-bin
 ttf-victor-mono

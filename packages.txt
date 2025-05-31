@@ -161,6 +161,7 @@ wireless_tools
 wireplumber
 wlogout
 xdg-desktop-portal-hyprland
+archlinux-xdg-menu
 xdg-user-dirs
 xorg-server
 xorg-xinit

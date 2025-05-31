@@ -34,10 +34,12 @@ if command -v nvim &> /dev/null; then
     alias nv='nvim'
     alias vi='nvim'
     alias svi='sudo nvim'
-    alias vis='nvim "+set si"'
 else
     export EDITOR=vim
     export VISUAL=vim
+    alias v='vim'
+    alias vi='vim'
+    alias svi='sudo vim'
 fi
 
 
@@ -56,6 +58,7 @@ alias .....='cd ../../../..'
 # Other aliases
 
 alias typing='smassh'
+alias o='obsidian --disable-gpu'
 
 
 # aliases for multiple directory listing commands
@@ -92,13 +95,3 @@ alias rebootforce='sudo shutdown -r -n now'
 alias diskspace="du -S | sort -n -r |more"
 
 `test -z "$TMUX" && (tmux attach || tmux new-session)`
-
-
-
-
-
-
-
-
-
-

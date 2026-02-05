@@ -32,6 +32,11 @@
       "active": "󱓻"
     },
     "persistent-workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": []
     }
   },
   "custom/omarchy": {
@@ -84,8 +89,9 @@
       "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
     "format-full": "󰂅",
-    "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
-    "tooltip-format-charging": "{power:>1.0f}W↑ {capacity}%",
+    "format-time": "{H} hours, {M} minutes",
+    "tooltip-format-discharging": "{power:>1.0f}W↓, {capacity}%, {time}",
+    "tooltip-format-charging": "{power:>1.0f}W↑, {capacity}%",
     "interval": 5,
     "on-click": "omarchy-menu power",
     "states": {
@@ -95,6 +101,7 @@
   },
   "bluetooth": {
     "format": "",
+    "format-off": "󰂲",
     "format-disabled": "󰂲",
     "format-connected": "󰂱",
     "format-no-controller": "",
@@ -110,6 +117,7 @@
     "format-muted": "",
     "format-icons": {
       "headphone": "",
+      "headset": "",
       "default": ["", "", ""]
     }
   },
@@ -123,7 +131,11 @@
   },
   "custom/expand-icon": {
     "format": "",
-    "tooltip": false
+    "tooltip": false,
+    "on-scroll-up": "",
+    "on-scroll-down": "",
+    "on-scroll-left": "",
+    "on-scroll-right": ""
   },
   "custom/screenrecording-indicator": {
     "on-click": "omarchy-cmd-screenrecord",
